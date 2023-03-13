@@ -2036,3 +2036,563 @@ body{
         height: 30px;
     }
 }
+
+@media (max-width: 410px){
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        border-bottom: 1px solid #838383;
+    }
+    .title_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .first_about_us_title_text{
+        font-size: 11px;
+        padding: 10px 0px 0px 10px;
+    }
+    .second_about_us_title_text{
+        font-size: 11px;
+        padding: 10px 0px 0px 10px;
+    }
+    .first_about_us_title{
+        font-size: 8px;
+        padding: 10px 0px 10px 10px;
+        width: 50%;
+    }   
+    .second_about_us_title{
+        font-size: 8px;
+        padding: 10px 0px 10px 10px;
+        width: 50%;
+    }
+    .PC_blocs_row{
+        display: flex;
+        flex: 0 1 33.333%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .price_PC{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+    .component{
+        padding: 0px 30px 0px 30px;
+        font-size:  18px;
+    }
+    .games_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 60px;
+    }
+    .contact_us_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    .contact_us_input_place_container{
+        padding: 0px 30px;
+    }
+    .input_contact_us_container_row{
+        width: 97%;
+        padding: 10px 0px;
+    }
+    .textarea_contact_us_container {
+        display: flex;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .input_contact_us_container_row input{
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 19px;
+        color: #7C7C7C;
+    }
+    .button_contact_us_container button{
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        border-radius: 10px;
+        color: #D1D1D1;
+        background-color: #545454;
+    }
+    .video_container {
+        display: flex;
+        justify-content: center;
+        padding: 20px 30px;
+    }
+    .video {
+        width: 100%; 
+        height: 300px;
+        border-radius: 20px;
+    }
+    .container_our_partners{
+        padding: 120px 0px 90px 0px; 
+    }
+    
+    .partners_container_row_padding{
+        padding: 0px 50px;
+    }
+    .partners_row{
+        padding: 10px 20px;
+    }
+    .partners{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #212121;
+        opacity: 95%;
+        border-radius: 5px;
+    }
+    .partners_container_row{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .partners_container img{
+        width: 0%;
+    }
+    .partners_img img{
+        padding: 0px 50px;
+    }
+    .partners_img{
+        padding: 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .partners img{
+        width: 50%;
+    }
+
+
+
+
+    .burger{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: #2E2E2E;
+    }
+    #check_menu{
+        display: none;
+    }
+    .burger_lable_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .burger_lable_container img{
+        width: 50px;
+    }
+    .header_items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: -70px;
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        flex-direction: column;
+        transform: translateY(100%);
+        padding: 0px 20px;
+    }
+    #check_menu:checked ~ .header_items{
+        max-height: 500px;
+        font-size: 18px;
+    }
+    .header_items a{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        color: #979797;
+        min-width: 110px;
+        
+        text-decoration: none; 
+        background-color: #2E2E2E;
+    }
+    .header_item{
+        padding: 0px 50px;
+        color: #7C7C7C;
+        font-size: 19px;
+    }
+
+
+
+
+
+
+
+    .footer_container_row{
+      display: flex;
+      justify-content: space-around; 
+      flex-direction: row;
+    }
+    .footer_left{
+        display: flex;
+        flex-direction:column;
+        padding: 20px 0px;
+    }
+    .footer_left img{
+        width: 40%;
+        padding: 30px 0px;
+        min-width: 20px;
+    }
+    .footer_center{
+        display: flex;
+        flex-direction: column;
+        justify-content: start; 
+    }
+    .center_left{
+       padding: 0px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+    }
+    .center_left a{
+        display: flex;
+       justify-content: center;
+    }
+    .center_center{
+        padding: 25px 0px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .center a{
+        padding: 5px 0px;
+    }
+    .text_center{
+        font-size: 8px;
+        padding: 10px 0px;
+    }
+    .title_text_center{
+        font-size: 12px;
+        color: #c1c1c1;
+    }
+    .text_email_center{
+        font-size: 8px;
+        padding: 10px 0px;
+    }
+    .center_number{
+        font-size: 8px;
+    }
+    .footer_right{
+        padding: 0px;
+    }
+    .footer_logo_container img{
+        padding: 10px;
+        width: 95px;
+        height: 40px;
+    }
+    .right_messenger_logo{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 10px 0px;
+    }
+    .footer_center_foto_container{
+        padding: 10px 0px;
+    }
+    .footer_center_foto_container img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 370px){
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        border-bottom: 1px solid #838383;
+    }
+    .title_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .first_about_us_title_text{
+        font-size: 10px;
+        padding: 10px 0px 0px 10px;
+    }
+    .second_about_us_title_text{
+        font-size: 10px;
+        padding: 10px 0px 0px 10px;
+    }
+    .first_about_us_title{
+        font-size: 7px;
+        padding: 10px 0px 10px 10px;
+        width: 50%;
+    }   
+    .second_about_us_title{
+        font-size: 7px;
+        padding: 10px 0px 10px 10px;
+        width: 50%;
+    }
+    .PC_blocs_row{
+        display: flex;
+        flex: 0 1 33.333%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .price_PC{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+    .component{
+        padding: 0px 30px 0px 30px;
+        font-size:  18px;
+    }
+    .games_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 60px;
+    }
+    .contact_us_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    .contact_us_input_place_container{
+        padding: 0px 30px;
+    }
+    .input_contact_us_container_row{
+        width: 97%;
+        padding: 10px 0px;
+    }
+    .textarea_contact_us_container {
+        display: flex;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .input_contact_us_container_row input{
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 19px;
+        color: #7C7C7C;
+    }
+    .button_contact_us_container button{
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        border-radius: 10px;
+        color: #D1D1D1;
+        background-color: #545454;
+    }
+    .video_container {
+        display: flex;
+        justify-content: center;
+        padding: 20px 30px;
+    }
+    .video {
+        width: 100%; 
+        height: 300px;
+        border-radius: 20px;
+    }
+    .container_our_partners{
+        padding: 120px 0px 90px 0px; 
+    }
+    
+    .partners_container_row_padding{
+        padding: 0px 50px;
+    }
+    .partners_row{
+        padding: 10px 20px;
+    }
+    .partners{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #212121;
+        opacity: 95%;
+        border-radius: 5px;
+    }
+    .partners_container_row{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .partners_container img{
+        width: 0%;
+    }
+    .partners_img img{
+        padding: 0px 50px;
+    }
+    .partners_img{
+        padding: 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .partners img{
+        width: 50%;
+    }
+
+
+
+
+    .burger{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: #2E2E2E;
+    }
+    #check_menu{
+        display: none;
+    }
+    .burger_lable_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .burger_lable_container img{
+        width: 50px;
+    }
+    .header_items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: -70px;
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        flex-direction: column;
+        transform: translateY(100%);
+        padding: 0px 20px;
+    }
+    #check_menu:checked ~ .header_items{
+        max-height: 500px;
+        font-size: 18px;
+    }
+    .header_items a{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        color: #979797;
+        min-width: 110px;
+        
+        text-decoration: none; 
+        background-color: #2E2E2E;
+    }
+    .header_item{
+        padding: 0px 50px;
+        color: #7C7C7C;
+        font-size: 19px;
+    }
+
+
+
+
+
+
+
+    .footer_container_row{
+      display: flex;
+      justify-content: space-around; 
+      flex-direction: row;
+    }
+    .footer_left{
+        display: flex;
+        flex-direction:column;
+        padding: 20px 0px;
+    }
+    .footer_left img{
+        width: 40%;
+        padding: 30px 0px;
+        min-width: 20px;
+    }
+    .footer_center{
+        display: flex;
+        flex-direction: column;
+        justify-content: start; 
+    }
+    .center_left{
+       padding: 0px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+    }
+    .center_left a{
+        display: flex;
+       justify-content: center;
+    }
+    .center_center{
+        padding: 25px 0px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .center a{
+        padding: 5px 0px;
+    }
+    .text_center{
+        font-size: 8px;
+        padding: 10px 0px;
+    }
+    .title_text_center{
+        font-size: 12px;
+        color: #c1c1c1;
+    }
+    .text_email_center{
+        font-size: 8px;
+        padding: 10px 0px;
+    }
+    .center_number{
+        font-size: 8px;
+    }
+    .footer_right{
+        padding: 0px;
+    }
+    .footer_logo_container img{
+        padding: 10px;
+        width: 95px;
+        height: 40px;
+    }
+    .right_messenger_logo{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 10px 0px;
+    }
+    .footer_center_foto_container{
+        padding: 10px 0px;
+    }
+    .footer_center_foto_container img{
+        width: 30px;
+        height: 30px;
+    }
+}
